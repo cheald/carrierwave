@@ -52,7 +52,7 @@ GEM
     json (1.4.6)
     json_pure (1.4.6)
     mime-types (1.16)
-    mini_magick (2.1)
+    mini_magick (2.3)
       subexec (~> 0.0.4)
     mongo (1.0.8)
       bson (>= 1.0.5)
@@ -91,8 +91,9 @@ DEPENDENCIES
   dm-validations
   image_science
   json
-  mini_magick
-  mongoid (~> 1.9.1)
+  mini_magick (~> 2.3)
+  mongoid (= 2.0.0.beta.17)
+  rails (~> 3.0.0)
   rmagick
   rspec
   sequel
